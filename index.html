@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <h1 class="titulo">Cadastro Bruxo</h1>
+            <br>
+        </div>
+        <form>
+    
+            <div class="campos">
+                <label  for="fname"><b>Nome:</b></label>
+                <input  type="text" name="fname" id="fname" required>
+            </div>
+            <div class="campos">
+                <label  for="lname"><b>Sobrenome: </b></label>
+                <input  type="text" name="lname" id="lname" required>
+            </div>
+        
+        <div class="campos">
+            <label for="email"><b>E-mail</b></label>
+            <input type="email" name="email" id="email" required >
+        </div>
+        <div>
+            <label><b>Tem interesse em qual escola de magia e bruxaria?</b></label>
+            <input type="radio" name="school" id="hogwarts" required>
+            <label for="hogwarts">Hogwarts</label>
+            
+        </div>
+        <br>
+        <div class="campos">
+            <label for="house"><b>Selecione sua casa</b></label>
+            <select name="house" id="house" required>
+            <option selected disabled value="">Selecione</option>
+            <option value="">Grifinória</option>
+            <option value="">Sonserina</option>
+            <option value="">Lufa-Lufa</option>
+            <option value="">Corvinal</option>
+            </select>
+        </div>
+    
+            <div class="check">
+                <label for=""><b>Quais são seus feitiços favoritos?</b></label>
+                <input type="checkbox" name="spell1" id="spell1" value="Expelliarmus">
+                <label for="spell1">Expelliarmus</label>
+                <input type="checkbox" name="spell2" id="spell2" value="Avada Kedrava">
+                <label for="spell2">Avada Kedrava</label>
+                <input type="checkbox" name="spell3" id="spell3" value="Expecto Patronum">
+                <label for="spell3">Expecto Patronum</label>
+                <input type="checkbox" name="spell4" id="spell4" value="Estupefaça">
+                <label for="spell4">Estupefaça</label>
+                <input type="checkbox" name="spell5" id="spell5" value="Lumos">
+                <label for="spell5">Lumos</label>
+                <input type="checkbox" name="spell6" id="spell6" value="Riddikulus">
+                <label for="spell6">Riddikulus</label>
+            </div>
+        <br>
+        <div class="campos">
+            <h4>Diga mais sobre você</h4>
+            <textarea name="you" id="you" cols="60" rows="4" required></textarea>
+        </div>
+        
+        <button type="submit">Concluído</button>
+    
+    </form>
+    </div>
+   
+</body>
+</html>
